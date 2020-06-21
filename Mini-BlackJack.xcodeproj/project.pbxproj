@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC830001226EDA0A006A8860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC83FFFF226EDA0A006A8860 /* Main.storyboard */; };
+		DC830004226EDA0A006A8860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC830003226EDA0A006A8860 /* main.m */; };
+		DC83000C226EDFB4006A8860 /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DC83000B226EDFB4006A8860 /* card_back.png */; };
+		DC83000F226EE235006A8860 /* BJController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC83000E226EE235006A8860 /* BJController.m */; };
+		DC830014226EE390006A8860 /* CardsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC830011226EE390006A8860 /* CardsHelper.m */; };
+		DC830015226EE390006A8860 /* BlackJack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC830013226EE390006A8860 /* BlackJack.m */; };
+		DC830018226EE461006A8860 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC830017226EE461006A8860 /* CardViewController.m */; };
+		DC83001C226EFD01006A8860 /* DealController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC83001A226EFD01006A8860 /* DealController.m */; };
+		DC830020226EFD34006A8860 /* TabView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC83001F226EFD34006A8860 /* TabView.m */; };
+		DC83FFF9226EDA08006A8860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC83FFF8226EDA08006A8860 /* AppDelegate.m */; };
+		DC83FFFE226EDA0A006A8860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC83FFFD226EDA0A006A8860 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC830000226EDA0A006A8860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC830002226EDA0A006A8860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC830003226EDA0A006A8860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC830005226EDA0A006A8860 /* MiniBlackJack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniBlackJack.entitlements; sourceTree = "<group>"; };
+		DC83000B226EDFB4006A8860 /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back.png; sourceTree = "<group>"; };
+		DC83000D226EE235006A8860 /* BJController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJController.h; sourceTree = "<group>"; };
+		DC83000E226EE235006A8860 /* BJController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJController.m; sourceTree = "<group>"; };
+		DC830010226EE390006A8860 /* BlackJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackJack.h; sourceTree = "<group>"; };
+		DC830011226EE390006A8860 /* CardsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsHelper.m; sourceTree = "<group>"; };
+		DC830012226EE390006A8860 /* CardsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsHelper.h; sourceTree = "<group>"; };
+		DC830013226EE390006A8860 /* BlackJack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackJack.m; sourceTree = "<group>"; };
+		DC830016226EE461006A8860 /* CardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		DC830017226EE461006A8860 /* CardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		DC830019226EFD01006A8860 /* DealController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealController.h; sourceTree = "<group>"; };
+		DC83001A226EFD01006A8860 /* DealController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealController.m; sourceTree = "<group>"; };
+		DC83001E226EFD34006A8860 /* TabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabView.h; sourceTree = "<group>"; };
+		DC83001F226EFD34006A8860 /* TabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabView.m; sourceTree = "<group>"; };
+		DC83FFF4226EDA08006A8860 /* Mini-BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini-BlackJack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC83FFF7226EDA08006A8860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC83FFF8226EDA08006A8860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC83FFFD226EDA0A006A8860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC83FFF1226EDA08006A8860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC83FFEB226EDA08006A8860 = {
+			isa = PBXGroup;
+			children = (
+				DC83FFF6226EDA08006A8860 /* MiniBlackJack */,
+				DC83FFF5226EDA08006A8860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC83FFF5226EDA08006A8860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC83FFF4226EDA08006A8860 /* Mini-BlackJack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC83FFF6226EDA08006A8860 /* MiniBlackJack */ = {
+			isa = PBXGroup;
+			children = (
+				DC83FFF7226EDA08006A8860 /* AppDelegate.h */,
+				DC83FFF8226EDA08006A8860 /* AppDelegate.m */,
+				DC83000D226EE235006A8860 /* BJController.h */,
+				DC83000E226EE235006A8860 /* BJController.m */,
+				DC830016226EE461006A8860 /* CardViewController.h */,
+				DC830017226EE461006A8860 /* CardViewController.m */,
+				DC830019226EFD01006A8860 /* DealController.h */,
+				DC83001A226EFD01006A8860 /* DealController.m */,
+				DC83001E226EFD34006A8860 /* TabView.h */,
+				DC83001F226EFD34006A8860 /* TabView.m */,
+				DC830010226EE390006A8860 /* BlackJack.h */,
+				DC830013226EE390006A8860 /* BlackJack.m */,
+				DC830012226EE390006A8860 /* CardsHelper.h */,
+				DC830011226EE390006A8860 /* CardsHelper.m */,
+				DC83000B226EDFB4006A8860 /* card_back.png */,
+				DC83FFFD226EDA0A006A8860 /* Assets.xcassets */,
+				DC83FFFF226EDA0A006A8860 /* Main.storyboard */,
+				DC830002226EDA0A006A8860 /* Info.plist */,
+				DC830003226EDA0A006A8860 /* main.m */,
+				DC830005226EDA0A006A8860 /* MiniBlackJack.entitlements */,
+			);
+			path = MiniBlackJack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC83FFF3226EDA08006A8860 /* Mini-BlackJack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC830008226EDA0A006A8860 /* Build configuration list for PBXNativeTarget "Mini-BlackJack" */;
+			buildPhases = (
+				DC83FFF0226EDA08006A8860 /* Sources */,
+				DC83FFF1226EDA08006A8860 /* Frameworks */,
+				DC83FFF2226EDA08006A8860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mini-BlackJack";
+			productName = MiniBlackJack;
+			productReference = DC83FFF4226EDA08006A8860 /* Mini-BlackJack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC83FFEC226EDA08006A8860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Crystaltech eSolutions";
+				TargetAttributes = {
+					DC83FFF3226EDA08006A8860 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = DC83FFEF226EDA08006A8860 /* Build configuration list for PBXProject "Mini-BlackJack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC83FFEB226EDA08006A8860;
+			productRefGroup = DC83FFF5226EDA08006A8860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC83FFF3226EDA08006A8860 /* Mini-BlackJack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC83FFF2226EDA08006A8860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC83FFFE226EDA0A006A8860 /* Assets.xcassets in Resources */,
+				DC83000C226EDFB4006A8860 /* card_back.png in Resources */,
+				DC830001226EDA0A006A8860 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC83FFF0226EDA08006A8860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC830014226EE390006A8860 /* CardsHelper.m in Sources */,
+				DC830018226EE461006A8860 /* CardViewController.m in Sources */,
+				DC830015226EE390006A8860 /* BlackJack.m in Sources */,
+				DC83000F226EE235006A8860 /* BJController.m in Sources */,
+				DC83001C226EFD01006A8860 /* DealController.m in Sources */,
+				DC830020226EFD34006A8860 /* TabView.m in Sources */,
+				DC830004226EDA0A006A8860 /* main.m in Sources */,
+				DC83FFF9226EDA08006A8860 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC83FFFF226EDA0A006A8860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC830000226EDA0A006A8860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC830006226EDA0A006A8860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DC830007226EDA0A006A8860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DC830009226EDA0A006A8860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiniBlackJack/MiniBlackJack.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y8LR75AY59;
+				INFOPLIST_FILE = MiniBlackJack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinodev90.Mini-BlackJack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC83000A226EDA0A006A8860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiniBlackJack/MiniBlackJack.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y8LR75AY59;
+				INFOPLIST_FILE = MiniBlackJack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinodev90.Mini-BlackJack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC830008226EDA0A006A8860 /* Build configuration list for PBXNativeTarget "Mini-BlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC830009226EDA0A006A8860 /* Debug */,
+				DC83000A226EDA0A006A8860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC83FFEF226EDA08006A8860 /* Build configuration list for PBXProject "Mini-BlackJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC830006226EDA0A006A8860 /* Debug */,
+				DC830007226EDA0A006A8860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC83FFEC226EDA08006A8860 /* Project object */;
+}
